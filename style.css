@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+        
+body {
+    background-color: white;
+    font-family: "Inter", Bold;
+}
+aside {
+    background-color: #6890C6;
+    width: 320px;
+    height: 92dvh;
+    margin: 20px;
+    border: 1px solid #393939;
+    border-radius: 10px;
+    padding: 15px;
+}
+input {
+    background: white;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+button {
+    font-family: "Inter", bold;
+}
+.task {
+    width: 75.5%;
+    height: 92dvh;
+    margin: 20px;
+    border: 1px solid #adadad;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 390px;
+}
+.header {
+    display: flex;
+    color: #393939;
+    font-size: 29px;
+}
+.h {
+    display: flex;
+    color: #393939;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.hl {
+    display: flex;
+    color: #393939;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.addt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.newt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.nl {
+    height: 30px;
+    width: 200px;
+    border: 1px solid white;
+    border-color: white;
+}
+.nt {
+    height: 30px;
+    width: 1325px;
+    border: 1px solid #393939;
+    border-color: #393939;
+}
+.lbutton {
+    width: 100px;
+    height: 33px;
+    border: 0px;
+    border-radius: 15px;
+    background: #445F82;
+    padding-bottom: 2px;
+}
+.tbutton {
+    width: 100px;
+    height: 33px;
+    border: 0px;
+    border-radius: 15px;
+    background: #445F82;
+    padding-bottom: 2px;
+}
+button:hover {
+    background-color: #4e6b91;
+}
+.ll {
+    background-color: #445F82;
+    height: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5x;
+    opacity: 50%;
+}
+.tl {
+    background-color: #808080;
+    height: 5px;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5x;
+    opacity: 50%;
+}
+.tlist {
+    margin-top: 20px;
+    display: flex;
+    color: #393939;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lbox {
+    margin-top: 10px;
+    height: 660px;
+    background-color: transparent;
+}
+.tbox {
+    margin-top: 10px;
+    background-color: transparent;
+    height: 300px;
+    max-height: 300px;
+    max-width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.tbox::-webkit-scrollbar {
+    display: none;
+}
+.cbox {
+    margin-top: 10px;
+    background-color: white;
+    max-height: 300px;
+    max-width: auto;
+    height: 300px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+.cbox::-webkit-scrollbar {
+    display: none;
+}
+.titem {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #393939;
+    font-size: 16px;
+    display: flex;
+}
+.citem {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #393939;
+    font-size: 16px;
+    display: flex;
+}
+.ttext {
+    margin-left: 0.9%;
+    margin-right: auto;
+}
+.cttext { 
+    margin-left: 0.9%;
+    margin-right: auto;
+}
+.cbutton {
+    display: block;
+    height: 17px;
+    width: 17px;
+    border: 2px solid #393939;
+    border-radius: 100%;
+}
+.rcbutton {
+    height: 17px;
+    width: 17px;
+    border: 2px solid #393939;
+    border-radius: 100%;
+    background-color: white;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+.icircle {
+    display: block;
+    height: 15px;
+    width: 15px;
+    border: 0px solid ;  
+    border-radius: 100%;  
+    background-color: #393939;
+}
+.dtbutton {
+    display: inline-block;
+    text-decoration: none;
+    color: #445F82;
+}
+#tre{
+    width: 100%;
+    background-color: transparent;
+}
